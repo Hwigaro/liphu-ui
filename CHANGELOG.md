@@ -16,7 +16,7 @@ alt="codacy coverage" height="20">
 <img src="https://img.shields.io/github/issues/LiphuCL/liphu-ui.svg?&style=flat&colorB=fabe46" alt="issues open"
 height="20">
 </a>
-<img src="https://img.shields.io/badge/commits%20to%20be%20deployed--3b79db.svg"
+<img src="https://img.shields.io/badge/commits%20to%20be%20deployed-1-3b79db.svg"
 alt="commits to be deployed">
 <a href="https://www.npmjs.com/package/@liphu/liphu-ui">
 <img src="https://img.shields.io/npm/v/@liphu/liphu-ui.svg?colorB=3b79db" alt="npm version" height="20">
@@ -32,6 +32,8 @@ All notable changes to this project will be documented in this file. :grin:
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## 0.1.0 - 26 June 2020
 
 ---
 <sub><sup>*This is an auto generated changelog. If you have any problems or suggestions, create an issue.* :blush:
