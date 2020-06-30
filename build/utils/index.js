@@ -14,6 +14,7 @@ exports.alias = {
 	'liphu-ui': path.join(process.cwd(), 'src'),
 	root: process.cwd(),
 	assets: path.resolve(process.cwd(), 'src/assets'),
+	styles: path.resolve(process.cwd(), 'src/assets/scss'),
 	components: path.resolve(process.cwd(), 'src/components'),
 	utils: path.resolve(process.cwd(), 'src/utils'),
 	mixins: path.resolve(process.cwd(), 'src/mixins'),

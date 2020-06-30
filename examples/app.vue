@@ -28,6 +28,7 @@ export default {};
 	background: $white;
 	border-right: 1px solid $border-color;
 	box-shadow: $box-shadow-sm;
+	position: relative;
 }
 
 .#{$css-prefix}-header {

@@ -1,8 +1,5 @@
 <template>
 	<lp-row>
-		<lp-col col="24" class="my-4">
-			<h1 class="my-8">Icon Test</h1>
-		</lp-col>
 		<lp-col col="24">
 			<lp-card title="Icons Test">
 				<lp-row>

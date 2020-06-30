@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import layout from './routes/layout.vue';
 import icon from './routes/icon.vue';
+import avatar from './routes/avatar.vue';
 import card from './routes/card.vue';
 import style from './routes/style.vue';
 
@@ -18,6 +19,13 @@ const routesMap = [
 		component: icon,
 		meta: {
 			title: 'Icon'
+		}
+	},
+	{
+		path: '/avatar',
+		component: avatar,
+		meta: {
+			title: 'Avatar'
 		}
 	},
 	{
