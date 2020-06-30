@@ -13,6 +13,7 @@ exports.env = isProd ? 'production' : 'development';
 exports.alias = {
 	'liphu-ui': path.join(process.cwd(), 'src'),
 	root: process.cwd(),
+	assets: path.resolve(process.cwd(), 'src/assets'),
 	components: path.resolve(process.cwd(), 'src/components'),
 	utils: path.resolve(process.cwd(), 'src/utils'),
 	mixins: path.resolve(process.cwd(), 'src/mixins'),

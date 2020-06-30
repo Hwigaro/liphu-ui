@@ -11,6 +11,7 @@ import {
 import Row from 'components/row';
 import Column from 'components/column';
 import Container from 'components/container';
+import Icon from './components/icon';
 import {
 	LpCard as Card,
 	LpCardMeta as CardMeta,
@@ -27,6 +28,7 @@ const components = [
 	Row,
 	Column,
 	Container,
+	Icon,
 	Card,
 	CardMeta,
 	CardGroup,
@@ -75,6 +77,7 @@ export {
 	Row,
 	Column,
 	Container,
+	Icon,
 	Card,
 	CardMeta,
 	CardGroup,

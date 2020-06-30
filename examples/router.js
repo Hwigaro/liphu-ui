@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import layout from './routes/layout.vue';
+import icon from './routes/icon.vue';
 import card from './routes/card.vue';
 import style from './routes/style.vue';
 
@@ -10,6 +11,13 @@ const routesMap = [
 		component: layout,
 		meta: {
 			title: 'Layout'
+		}
+	},
+	{
+		path: '/icon',
+		component: icon,
+		meta: {
+			title: 'Icon'
 		}
 	},
 	{

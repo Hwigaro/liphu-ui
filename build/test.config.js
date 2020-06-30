@@ -10,7 +10,6 @@ const barConfig = {
 };
 
 module.exports = (config, theme) => ({
-	devtool: 'eval-source-map',
 	stats: 'errors-only',
 	optimization: {
 		runtimeChunk: 'single'

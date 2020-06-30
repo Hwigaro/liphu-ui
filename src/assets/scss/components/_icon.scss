@@ -1,0 +1,1113 @@
+@font-face {
+	font-family: '#{$icon-font-family}';
+	src: url('#{$icon-font-path}/#{$icon-font-family}.eot?24ig2u');
+	src: url('#{$icon-font-path}/#{$icon-font-family}.eot?24ig2u#iefix')
+			format('embedded-opentype'),
+		url('#{$icon-font-path}/#{$icon-font-family}.ttf?24ig2u')
+			format('truetype'),
+		url('#{$icon-font-path}/#{$icon-font-family}.woff?24ig2u')
+			format('woff'),
+		url('#{$icon-font-path}/#{$icon-font-family}.svg?24ig2u##{$icon-font-family}')
+			format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.#{$css-prefix}-icon {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: $icon-font-family !important;
+	font-style: normal;
+	font-weight: $font-weight-base;
+	font-variant: normal;
+	text-transform: none;
+	vertical-align: -0.125em;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.#{$css-prefix}-icon-xxs {
+	font-size: $icon-size-xxs;
+}
+
+.#{$css-prefix}-icon-xs {
+	font-size: $icon-size-xs;
+}
+
+.#{$css-prefix}-icon-sm {
+	font-size: $icon-size-sm;
+}
+
+.#{$css-prefix}-icon-lg {
+	font-size: $icon-size-lg;
+}
+
+.#{$css-prefix}-icon-xl {
+	font-size: $icon-size-xl;
+}
+
+.#{$css-prefix}-icon-plus {
+	&:before {
+		content: $lp-icon-plus;
+	}
+}
+
+.#{$css-prefix}-icon-notification-circle {
+	&:before {
+		content: $lp-icon-notification-circle;
+	}
+}
+
+.#{$css-prefix}-icon-alarm {
+	&:before {
+		content: $lp-icon-alarm;
+	}
+}
+
+.#{$css-prefix}-icon-apartment {
+	&:before {
+		content: $lp-icon-apartment;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-down-circle {
+	&:before {
+		content: $lp-icon-arrow-down-circle;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-down {
+	&:before {
+		content: $lp-icon-arrow-down;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-left-circle {
+	&:before {
+		content: $lp-icon-arrow-left-circle;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-left {
+	&:before {
+		content: $lp-icon-arrow-left;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-right-circle {
+	&:before {
+		content: $lp-icon-arrow-right-circle;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-right {
+	&:before {
+		content: $lp-icon-arrow-right;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-up-circle {
+	&:before {
+		content: $lp-icon-arrow-up-circle;
+	}
+}
+
+.#{$css-prefix}-icon-arrow-up {
+	&:before {
+		content: $lp-icon-arrow-up;
+	}
+}
+
+.#{$css-prefix}-icon-bicycle {
+	&:before {
+		content: $lp-icon-bicycle;
+	}
+}
+
+.#{$css-prefix}-icon-bold {
+	&:before {
+		content: $lp-icon-bold;
+	}
+}
+
+.#{$css-prefix}-icon-book {
+	&:before {
+		content: $lp-icon-book;
+	}
+}
+
+.#{$css-prefix}-icon-bookmark {
+	&:before {
+		content: $lp-icon-bookmark;
+	}
+}
+
+.#{$css-prefix}-icon-briefcase {
+	&:before {
+		content: $lp-icon-briefcase;
+	}
+}
+
+.#{$css-prefix}-icon-bubble {
+	&:before {
+		content: $lp-icon-bubble;
+	}
+}
+
+.#{$css-prefix}-icon-bug {
+	&:before {
+		content: $lp-icon-bug;
+	}
+}
+
+.#{$css-prefix}-icon-bullhorn {
+	&:before {
+		content: $lp-icon-bullhorn;
+	}
+}
+
+.#{$css-prefix}-icon-bus {
+	&:before {
+		content: $lp-icon-bus;
+	}
+}
+
+.#{$css-prefix}-icon-calendar-full {
+	&:before {
+		content: $lp-icon-calendar-full;
+	}
+}
+
+.#{$css-prefix}-icon-camera-video {
+	&:before {
+		content: $lp-icon-camera-video;
+	}
+}
+
+.#{$css-prefix}-icon-camera {
+	&:before {
+		content: $lp-icon-camera;
+	}
+}
+
+.#{$css-prefix}-icon-car {
+	&:before {
+		content: $lp-icon-car;
+	}
+}
+
+.#{$css-prefix}-icon-cart {
+	&:before {
+		content: $lp-icon-cart;
+	}
+}
+
+.#{$css-prefix}-icon-chart-bars {
+	&:before {
+		content: $lp-icon-chart-bars;
+	}
+}
+
+.#{$css-prefix}-icon-checkmark-circle {
+	&:before {
+		content: $lp-icon-checkmark-circle;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-down-circle {
+	&:before {
+		content: $lp-icon-chevron-down-circle;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-down {
+	&:before {
+		content: $lp-icon-chevron-down;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-left-circle {
+	&:before {
+		content: $lp-icon-chevron-left-circle;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-left {
+	&:before {
+		content: $lp-icon-chevron-left;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-right-circle {
+	&:before {
+		content: $lp-icon-chevron-right-circle;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-right {
+	&:before {
+		content: $lp-icon-chevron-right;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-up-circle {
+	&:before {
+		content: $lp-icon-chevron-up-circle;
+	}
+}
+
+.#{$css-prefix}-icon-chevron-up {
+	&:before {
+		content: $lp-icon-chevron-up;
+	}
+}
+
+.#{$css-prefix}-icon-circle-minus {
+	&:before {
+		content: $lp-icon-circle-minus;
+	}
+}
+
+.#{$css-prefix}-icon-clock {
+	&:before {
+		content: $lp-icon-clock;
+	}
+}
+
+.#{$css-prefix}-icon-cloud-check {
+	&:before {
+		content: $lp-icon-cloud-check;
+	}
+}
+
+.#{$css-prefix}-icon-cloud-download {
+	&:before {
+		content: $lp-icon-cloud-download;
+	}
+}
+
+.#{$css-prefix}-icon-cloud-sync {
+	&:before {
+		content: $lp-icon-cloud-sync;
+	}
+}
+
+.#{$css-prefix}-icon-cloud-upload {
+	&:before {
+		content: $lp-icon-cloud-upload;
+	}
+}
+
+.#{$css-prefix}-icon-cloud {
+	&:before {
+		content: $lp-icon-cloud;
+	}
+}
+
+.#{$css-prefix}-icon-code {
+	&:before {
+		content: $lp-icon-code;
+	}
+}
+
+.#{$css-prefix}-icon-coffee-cup {
+	&:before {
+		content: $lp-icon-coffee-cup;
+	}
+}
+
+.#{$css-prefix}-icon-cog {
+	&:before {
+		content: $lp-icon-cog;
+	}
+}
+
+.#{$css-prefix}-icon-construction {
+	&:before {
+		content: $lp-icon-construction;
+	}
+}
+
+.#{$css-prefix}-icon-crop {
+	&:before {
+		content: $lp-icon-crop;
+	}
+}
+
+.#{$css-prefix}-icon-cross-circle {
+	&:before {
+		content: $lp-icon-cross-circle;
+	}
+}
+
+.#{$css-prefix}-icon-cross {
+	&:before {
+		content: $lp-icon-cross;
+	}
+}
+
+.#{$css-prefix}-icon-database {
+	&:before {
+		content: $lp-icon-database;
+	}
+}
+
+.#{$css-prefix}-icon-diamond {
+	&:before {
+		content: $lp-icon-diamond;
+	}
+}
+
+.#{$css-prefix}-icon-dice {
+	&:before {
+		content: $lp-icon-dice;
+	}
+}
+
+.#{$css-prefix}-icon-dinner {
+	&:before {
+		content: $lp-icon-dinner;
+	}
+}
+
+.#{$css-prefix}-icon-direction-ltr {
+	&:before {
+		content: $lp-icon-direction-ltr;
+	}
+}
+
+.#{$css-prefix}-icon-direction-rtl {
+	&:before {
+		content: $lp-icon-direction-rtl;
+	}
+}
+
+.#{$css-prefix}-icon-download {
+	&:before {
+		content: $lp-icon-download;
+	}
+}
+
+.#{$css-prefix}-icon-drop {
+	&:before {
+		content: $lp-icon-drop;
+	}
+}
+
+.#{$css-prefix}-icon-earth {
+	&:before {
+		content: $lp-icon-earth;
+	}
+}
+
+.#{$css-prefix}-icon-enter-down {
+	&:before {
+		content: $lp-icon-enter-down;
+	}
+}
+
+.#{$css-prefix}-icon-enter {
+	&:before {
+		content: $lp-icon-enter;
+	}
+}
+
+.#{$css-prefix}-icon-envelope {
+	&:before {
+		content: $lp-icon-envelope;
+	}
+}
+
+.#{$css-prefix}-icon-exit-up {
+	&:before {
+		content: $lp-icon-exit-up;
+	}
+}
+
+.#{$css-prefix}-icon-exit {
+	&:before {
+		content: $lp-icon-exit;
+	}
+}
+
+.#{$css-prefix}-icon-eye {
+	&:before {
+		content: $lp-icon-eye;
+	}
+}
+
+.#{$css-prefix}-icon-file-add {
+	&:before {
+		content: $lp-icon-file-add;
+	}
+}
+
+.#{$css-prefix}-icon-file-empty {
+	&:before {
+		content: $lp-icon-file-empty;
+	}
+}
+
+.#{$css-prefix}-icon-film-play {
+	&:before {
+		content: $lp-icon-film-play;
+	}
+}
+
+.#{$css-prefix}-icon-flag {
+	&:before {
+		content: $lp-icon-flag;
+	}
+}
+
+.#{$css-prefix}-icon-frame-contract {
+	&:before {
+		content: $lp-icon-frame-contract;
+	}
+}
+
+.#{$css-prefix}-icon-frame-expand {
+	&:before {
+		content: $lp-icon-frame-expand;
+	}
+}
+
+.#{$css-prefix}-icon-funnel {
+	&:before {
+		content: $lp-icon-funnel;
+	}
+}
+
+.#{$css-prefix}-icon-gift {
+	&:before {
+		content: $lp-icon-gift;
+	}
+}
+
+.#{$css-prefix}-icon-graduation-hat {
+	&:before {
+		content: $lp-icon-graduation-hat;
+	}
+}
+
+.#{$css-prefix}-icon-hand {
+	&:before {
+		content: $lp-icon-hand;
+	}
+}
+
+.#{$css-prefix}-icon-heart-pulse {
+	&:before {
+		content: $lp-icon-heart-pulse;
+	}
+}
+
+.#{$css-prefix}-icon-heart {
+	&:before {
+		content: $lp-icon-heart;
+	}
+}
+
+.#{$css-prefix}-icon-highlight {
+	&:before {
+		content: $lp-icon-highlight;
+	}
+}
+
+.#{$css-prefix}-icon-history {
+	&:before {
+		content: $lp-icon-history;
+	}
+}
+
+.#{$css-prefix}-icon-home {
+	&:before {
+		content: $lp-icon-home;
+	}
+}
+
+.#{$css-prefix}-icon-hourglass {
+	&:before {
+		content: $lp-icon-hourglass;
+	}
+}
+
+.#{$css-prefix}-icon-inbox {
+	&:before {
+		content: $lp-icon-inbox;
+	}
+}
+
+.#{$css-prefix}-icon-indent-decrease {
+	&:before {
+		content: $lp-icon-indent-decrease;
+	}
+}
+
+.#{$css-prefix}-icon-indent-increase {
+	&:before {
+		content: $lp-icon-indent-increase;
+	}
+}
+
+.#{$css-prefix}-icon-italic {
+	&:before {
+		content: $lp-icon-italic;
+	}
+}
+
+.#{$css-prefix}-icon-keyboard {
+	&:before {
+		content: $lp-icon-keyboard;
+	}
+}
+
+.#{$css-prefix}-icon-laptop-phone {
+	&:before {
+		content: $lp-icon-laptop-phone;
+	}
+}
+
+.#{$css-prefix}-icon-laptop {
+	&:before {
+		content: $lp-icon-laptop;
+	}
+}
+
+.#{$css-prefix}-icon-layers {
+	&:before {
+		content: $lp-icon-layers;
+	}
+}
+
+.#{$css-prefix}-icon-leaf {
+	&:before {
+		content: $lp-icon-leaf;
+	}
+}
+
+.#{$css-prefix}-icon-license {
+	&:before {
+		content: $lp-icon-license;
+	}
+}
+
+.#{$css-prefix}-icon-lighter {
+	&:before {
+		content: $lp-icon-lighter;
+	}
+}
+
+.#{$css-prefix}-icon-line-spacing {
+	&:before {
+		content: $lp-icon-line-spacing;
+	}
+}
+
+.#{$css-prefix}-icon-linearicons {
+	&:before {
+		content: $lp-icon-linearicons;
+	}
+}
+
+.#{$css-prefix}-icon-link {
+	&:before {
+		content: $lp-icon-link;
+	}
+}
+
+.#{$css-prefix}-icon-list {
+	&:before {
+		content: $lp-icon-list;
+	}
+}
+
+.#{$css-prefix}-icon-location {
+	&:before {
+		content: $lp-icon-location;
+	}
+}
+
+.#{$css-prefix}-icon-lock {
+	&:before {
+		content: $lp-icon-lock;
+	}
+}
+
+.#{$css-prefix}-icon-magic-wand {
+	&:before {
+		content: $lp-icon-magic-wand;
+	}
+}
+
+.#{$css-prefix}-icon-magnifier {
+	&:before {
+		content: $lp-icon-magnifier;
+	}
+}
+
+.#{$css-prefix}-icon-map-marker {
+	&:before {
+		content: $lp-icon-map-marker;
+	}
+}
+
+.#{$css-prefix}-icon-map {
+	&:before {
+		content: $lp-icon-map;
+	}
+}
+
+.#{$css-prefix}-icon-menu-circle {
+	&:before {
+		content: $lp-icon-menu-circle;
+	}
+}
+
+.#{$css-prefix}-icon-menu {
+	&:before {
+		content: $lp-icon-menu;
+	}
+}
+
+.#{$css-prefix}-icon-mic {
+	&:before {
+		content: $lp-icon-mic;
+	}
+}
+
+.#{$css-prefix}-icon-moon {
+	&:before {
+		content: $lp-icon-moon;
+	}
+}
+
+.#{$css-prefix}-icon-move {
+	&:before {
+		content: $lp-icon-move;
+	}
+}
+
+.#{$css-prefix}-icon-music-note {
+	&:before {
+		content: $lp-icon-music-note;
+	}
+}
+
+.#{$css-prefix}-icon-mustache {
+	&:before {
+		content: $lp-icon-mustache;
+	}
+}
+
+.#{$css-prefix}-icon-neutral {
+	&:before {
+		content: $lp-icon-neutral;
+	}
+}
+
+.#{$css-prefix}-icon-page-break {
+	&:before {
+		content: $lp-icon-page-break;
+	}
+}
+
+.#{$css-prefix}-icon-paperclip {
+	&:before {
+		content: $lp-icon-paperclip;
+	}
+}
+
+.#{$css-prefix}-icon-paw {
+	&:before {
+		content: $lp-icon-paw;
+	}
+}
+
+.#{$css-prefix}-icon-pencil {
+	&:before {
+		content: $lp-icon-pencil;
+	}
+}
+
+.#{$css-prefix}-icon-phone-handset {
+	&:before {
+		content: $lp-icon-phone-handset;
+	}
+}
+
+.#{$css-prefix}-icon-phone {
+	&:before {
+		content: $lp-icon-phone;
+	}
+}
+
+.#{$css-prefix}-icon-picture {
+	&:before {
+		content: $lp-icon-picture;
+	}
+}
+
+.#{$css-prefix}-icon-pie-chart {
+	&:before {
+		content: $lp-icon-pie-chart;
+	}
+}
+
+.#{$css-prefix}-icon-pilcrow {
+	&:before {
+		content: $lp-icon-pilcrow;
+	}
+}
+
+.#{$css-prefix}-icon-plus-circle {
+	&:before {
+		content: $lp-icon-plus-circle;
+	}
+}
+
+.#{$css-prefix}-icon-pointer-down {
+	&:before {
+		content: $lp-icon-pointer-down;
+	}
+}
+
+.#{$css-prefix}-icon-pointer-left {
+	&:before {
+		content: $lp-icon-pointer-left;
+	}
+}
+
+.#{$css-prefix}-icon-pointer-right {
+	&:before {
+		content: $lp-icon-pointer-right;
+	}
+}
+
+.#{$css-prefix}-icon-pointer-up {
+	&:before {
+		content: $lp-icon-pointer-up;
+	}
+}
+
+.#{$css-prefix}-icon-poop {
+	&:before {
+		content: $lp-icon-poop;
+	}
+}
+
+.#{$css-prefix}-icon-power-switch {
+	&:before {
+		content: $lp-icon-power-switch;
+	}
+}
+
+.#{$css-prefix}-icon-printer {
+	&:before {
+		content: $lp-icon-printer;
+	}
+}
+
+.#{$css-prefix}-icon-pushpin {
+	&:before {
+		content: $lp-icon-pushpin;
+	}
+}
+
+.#{$css-prefix}-icon-question-circle {
+	&:before {
+		content: $lp-icon-question-circle;
+	}
+}
+
+.#{$css-prefix}-icon-redo {
+	&:before {
+		content: $lp-icon-redo;
+	}
+}
+
+.#{$css-prefix}-icon-rocket {
+	&:before {
+		content: $lp-icon-rocket;
+	}
+}
+
+.#{$css-prefix}-icon-sad {
+	&:before {
+		content: $lp-icon-sad;
+	}
+}
+
+.#{$css-prefix}-icon-screen {
+	&:before {
+		content: $lp-icon-screen;
+	}
+}
+
+.#{$css-prefix}-icon-select {
+	&:before {
+		content: $lp-icon-select;
+	}
+}
+
+.#{$css-prefix}-icon-shirt {
+	&:before {
+		content: $lp-icon-shirt;
+	}
+}
+
+.#{$css-prefix}-icon-smartphone {
+	&:before {
+		content: $lp-icon-smartphone;
+	}
+}
+
+.#{$css-prefix}-icon-smile {
+	&:before {
+		content: $lp-icon-smile;
+	}
+}
+
+.#{$css-prefix}-icon-sort-alpha-asc {
+	&:before {
+		content: $lp-icon-sort-alpha-asc;
+	}
+}
+
+.#{$css-prefix}-icon-sort-amount-asc {
+	&:before {
+		content: $lp-icon-sort-amount-asc;
+	}
+}
+
+.#{$css-prefix}-icon-spell-check {
+	&:before {
+		content: $lp-icon-spell-check;
+	}
+}
+
+.#{$css-prefix}-icon-star-empty {
+	&:before {
+		content: $lp-icon-star-empty;
+	}
+}
+
+.#{$css-prefix}-icon-star-half {
+	&:before {
+		content: $lp-icon-star-half;
+	}
+}
+
+.#{$css-prefix}-icon-star {
+	&:before {
+		content: $lp-icon-star;
+	}
+}
+
+.#{$css-prefix}-icon-store {
+	&:before {
+		content: $lp-icon-store;
+	}
+}
+
+.#{$css-prefix}-icon-strikethrough {
+	&:before {
+		content: $lp-icon-strikethrough;
+	}
+}
+
+.#{$css-prefix}-icon-sun {
+	&:before {
+		content: $lp-icon-sun;
+	}
+}
+
+.#{$css-prefix}-icon-sync {
+	&:before {
+		content: $lp-icon-sync;
+	}
+}
+
+.#{$css-prefix}-icon-tablet {
+	&:before {
+		content: $lp-icon-tablet;
+	}
+}
+
+.#{$css-prefix}-icon-tag {
+	&:before {
+		content: $lp-icon-tag;
+	}
+}
+
+.#{$css-prefix}-icon-text-align-center {
+	&:before {
+		content: $lp-icon-text-align-center;
+	}
+}
+
+.#{$css-prefix}-icon-text-align-justify {
+	&:before {
+		content: $lp-icon-text-align-justify;
+	}
+}
+
+.#{$css-prefix}-icon-text-align-left {
+	&:before {
+		content: $lp-icon-text-align-left;
+	}
+}
+
+.#{$css-prefix}-icon-text-align-right {
+	&:before {
+		content: $lp-icon-text-align-right;
+	}
+}
+
+.#{$css-prefix}-icon-text-format-remove {
+	&:before {
+		content: $lp-icon-text-format-remove;
+	}
+}
+
+.#{$css-prefix}-icon-text-format {
+	&:before {
+		content: $lp-icon-text-format;
+	}
+}
+
+.#{$css-prefix}-icon-text-size {
+	&:before {
+		content: $lp-icon-text-size;
+	}
+}
+
+.#{$css-prefix}-icon-thumbs-down {
+	&:before {
+		content: $lp-icon-thumbs-down;
+	}
+}
+
+.#{$css-prefix}-icon-thumbs-up {
+	&:before {
+		content: $lp-icon-thumbs-up;
+	}
+}
+
+.#{$css-prefix}-icon-train {
+	&:before {
+		content: $lp-icon-train;
+	}
+}
+
+.#{$css-prefix}-icon-trash {
+	&:before {
+		content: $lp-icon-trash;
+	}
+}
+
+.#{$css-prefix}-icon-underline {
+	&:before {
+		content: $lp-icon-underline;
+	}
+}
+
+.#{$css-prefix}-icon-undo {
+	&:before {
+		content: $lp-icon-undo;
+	}
+}
+
+.#{$css-prefix}-icon-unlink {
+	&:before {
+		content: $lp-icon-unlink;
+	}
+}
+
+.#{$css-prefix}-icon-upload {
+	&:before {
+		content: $lp-icon-upload;
+	}
+}
+
+.#{$css-prefix}-icon-user {
+	&:before {
+		content: $lp-icon-user;
+	}
+}
+
+.#{$css-prefix}-icon-users {
+	&:before {
+		content: $lp-icon-users;
+	}
+}
+
+.#{$css-prefix}-icon-volume-high {
+	&:before {
+		content: $lp-icon-volume-high;
+	}
+}
+
+.#{$css-prefix}-icon-volume-low {
+	&:before {
+		content: $lp-icon-volume-low;
+	}
+}
+
+.#{$css-prefix}-icon-volume-medium {
+	&:before {
+		content: $lp-icon-volume-medium;
+	}
+}
+
+.#{$css-prefix}-icon-volume {
+	&:before {
+		content: $lp-icon-volume;
+	}
+}
+
+.#{$css-prefix}-icon-warning {
+	&:before {
+		content: $lp-icon-warning;
+	}
+}
+
+.#{$css-prefix}-icon-wheelchair {
+	&:before {
+		content: $lp-icon-wheelchair;
+	}
+}
+
+.#{$css-prefix}-icon-loading {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0.1em;
+	font-size: 1em;
+	position: relative;
+	text-indent: -9999em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: currentColor transparent transparent;
+	@include transform(translateZ(0));
+	animation: loading-spinner 1.1s infinite linear;
+
+	&,
+	&:after {
+		border-radius: 50%;
+		width: 1em;
+		height: 1em;
+	}
+}
+
+@include keyframe(loading-spinner) {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
