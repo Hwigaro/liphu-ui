@@ -13,6 +13,7 @@ import Column from 'components/column';
 import Container from 'components/container';
 import Icon from './components/icon';
 import Avatar from './components/avatar';
+import Divider from './components/divider';
 import {
 	LpCard as Card,
 	LpCardMeta as CardMeta,
@@ -34,7 +35,8 @@ const components = [
 	Card,
 	CardMeta,
 	CardGroup,
-	CardDeck
+	CardDeck,
+	Divider
 ];
 
 const installOptions = options => {
@@ -84,7 +86,8 @@ export {
 	Card,
 	CardMeta,
 	CardGroup,
-	CardDeck
+	CardDeck,
+	Divider
 };
 
 export default {

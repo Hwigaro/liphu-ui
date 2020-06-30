@@ -1,0 +1,79 @@
+.#{$css-prefix}-divider {
+	display: block;
+	width: 100%;
+	background-color: $divider-color;
+	height: 1px;
+	margin: 1rem 0;
+	position: relative;
+
+	&-dashed {
+		border-bottom: 1px dashed $divider-color;
+		background-color: transparent;
+
+		&:before,
+		&:after {
+			border-bottom-style: dashed !important;
+		}
+	}
+
+	&-has-text {
+		background-color: transparent;
+		border: 0;
+		display: table;
+		white-space: nowrap;
+		clear: both;
+		font-size: 0.999rem; // Chrome still causes blurry borders with percentage-based CSS translation
+
+		&:before {
+			content: '';
+			display: table-cell;
+			position: relative;
+			width: 50%;
+			top: 50%;
+			border-bottom: 1px solid $divider-color;
+			transform: translateY(-50%);
+		}
+
+		&:after {
+			content: '';
+			display: table-cell;
+			position: relative;
+			width: 50%;
+			top: 50%;
+			border-bottom: 1px solid $divider-color;
+			transform: translateY(-50%);
+		}
+
+		&-left:before {
+			width: 5%;
+		}
+
+		&-right:before {
+			width: 95%;
+		}
+
+		&-left:after {
+			width: 95%;
+		}
+
+		&-right:after {
+			width: 5%;
+		}
+	}
+
+	&-inner {
+		display: inline-block;
+		padding: 0 1rem;
+		font-weight: $font-weight-semibold;
+	}
+
+	&-vertical {
+		margin: 0 0.5rem;
+		display: inline-block;
+		height: 1rem;
+		width: 1px;
+		vertical-align: middle;
+		position: relative;
+		top: -0.1rem;
+	}
+}
