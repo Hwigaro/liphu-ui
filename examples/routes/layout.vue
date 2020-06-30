@@ -30,11 +30,11 @@ export default {};
 
 .#{$css-prefix}-footer {
 	text-align: center;
-	background: $gray-100;
+	background: $gray-1;
 }
 
 .#{$css-prefix}-header {
-	background: $gray-900;
+	background: $gray-9;
 	color: $white;
 
 	span {
@@ -47,12 +47,12 @@ export default {};
 		width: calc(250px - 3rem);
 		height: 40px;
 		float: left;
-		background: $gray-800;
+		background: $gray-8;
 	}
 }
 
 .#{$css-prefix}-content {
-	background: $gray-100;
+	background: $gray-1;
 
 	.#{$css-prefix}-container {
 		background: $white;

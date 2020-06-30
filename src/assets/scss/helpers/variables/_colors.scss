@@ -1,189 +1,204 @@
 // Grays
-$white: #ffffff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #ebedf0 !default;
-$gray-300: #dde0e5 !default;
-$gray-400: #ced3d9 !default;
-$gray-500: #abb3be !default;
-$gray-600: #636c7b !default;
-$gray-700: #484e59 !default;
-$gray-800: #3a3f48 !default;
-$gray-900: #212429 !default;
-$black: #131417 !default;
-
-$white: #ffffff !default;
-
-
-$gray-10: #fafafa; // B: 98%
-$gray-20: #e1e1e1; // B: 92%
-$gray-30: #c9c9c9; // B: 79%
-$gray-40: #b1b1b1; // B: 69%
-$gray-50: #989898; // B: 60%
-$gray-60: #808080; // B: 50%
-$gray-70: #686868; // B: 41%
-$gray-80: #4f4f4f; // B: 31%
-$gray-90: #373737; // B: 22%
-$gray-100: #1f1f1f; // B: 12%
-
-$blue-60: #3b79db; // H: 217 S: 73% B: 86%
-
-$red-60: #db3b3b; // H: 217 S: 73% B: 86%
-
-$yellow-60: #dbca3b; // H: 217 S: 73% B: 86%
-
-$green-60: #59db3b; // H: 217 S: 73% B: 86%
-
-$indigo-60: #4e3bdb; // H: 217 S: 73% B: 86%
-
-$purple-60: #873bdb; // H: 217 S: 73% B: 86%
-
-$teal-60: #3bdb99; // H: 217 S: 73% B: 86%
-
-$pink-60: #db3b77; // H: 217 S: 73% B: 86%
-
-$orange-60: #db833b; // H: 217 S: 73% B: 86%
-
-$cyan-60: #3bd2db; // H: 217 S: 73% B: 86%
-
-$skyblue-60: #3ba8db; // H: 217 S: 73% B: 86%
-
-//Grays
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #ebedf0 !default;
-$gray-300: #dde0e5 !default;
-$gray-400: #ced3d9 !default;
-$gray-500: #abb3be !default;
-$gray-600: #97a0ae !default;
-$gray-700: #636c7b !default;
-$gray-800: #3a3f48 !default;
-$gray-900: #23262c !default;
-$black: #14161a !default;
+$gray-1: #f8f9fa !default;
+$gray-2: #ebedf0 !default;
+$gray-3: #dde0e5 !default;
+$gray-4: #ced3d9 !default;
+$gray-5: #abb3be !default;
+$gray-6: #97a0ae !default;
+$gray-7: #636c7b !default;
+$gray-8: #3a3f48 !default;
+$gray-9: #23262c !default;
+$gray-10: #14161a !default;
+$black: $gray-10 !default;
 
-//Colors
-$blue: #2067ff !default;
-$navy: #061b2e !default;
-$sky: #599eff !default;
-$green: #52c41a !default;
-$teal: #16cd97 !default;
-$yellow: #fabe46 !default;
-$orange: #db9b3b !default;
-$red: #fe686f !default;
-$pink: #f44d66 !default;
-$purple: #673ab7 !default;
-$indigo: #3748ac !default;
-$cyan: #3bcbdb !default;
+$blue-1: #f0f7ff !default;
+$blue-2: #e8f2ff !default;
+$blue-3: #bfdaff !default;
+$blue-4: #90b7f5 !default;
+$blue-5: #6492e8 !default;
+$blue-6: #3b6edb !default; // H: 217 S: 73% B: 86%
+$blue-7: #2850b5 !default;
+$blue-8: #18368f !default;
+$blue-9: #0d2069 !default;
+$blue-10: #071242 !default;
 
-$primary: $blue !default;
-$success: $teal !default;
-$info: $sky !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light: $gray-100 !default;
-$dark: $gray-800 !default;
-$darker: $gray-900 !default;
-$secondary: $gray-600 !default;
-$disabled: $gray-400 !default;
-$disabled-bg: $gray-200 !default;
+$red-1: #fff2f0 !default;
+$red-2: #ffebe8 !default;
+$red-3: #ffc6bf !default;
+$red-4: #f59790 !default;
+$red-5: #e86864 !default;
+$red-6: #db3b3b !default;
+$red-7: #b5282d !default;
+$red-8: #8f1820 !default;
+$red-9: #690d16 !default;
+$red-10: #42070f !default;
 
-$primary-darker: mix($black, $primary, 50) !default;
-$primary-dark: mix($black, $primary, 20) !default;
-$primary-dark-alt: mix($black, $primary, 40) !default;
-$primary-secondary: mix($white, $primary, 10) !default;
-$primary-tertiary: mix($white, $primary, 20) !default;
-$primary-light: mix($white, $primary, 70) !default;
-$primary-lighter: mix($white, $primary, 90) !default;
-$primary-lighter-alt: mix($white, $primary, 80) !default;
+$yellow-1: #fefff0 !default;
+$yellow-2: #feffe8 !default;
+$yellow-3: #ffffbf !default;
+$yellow-4: #f5f190 !default;
+$yellow-5: #e8df64 !default;
+$yellow-6: #dbca3b !default;
+$yellow-7: #b5a228 !default;
+$yellow-8: #8f7b18 !default;
+$yellow-9: #69560d !default;
+$yellow-10: #423507 !default;
 
-$success-darker: mix($black, $success, 50) !default;
-$success-dark: mix($black, $success, 20) !default;
-$success-dark-alt: mix($black, $success, 40) !default;
-$success-secondary: mix($white, $success, 10) !default;
-$success-tertiary: mix($white, $success, 20) !default;
-$success-light: mix($white, $success, 70) !default;
-$success-lighter: mix($white, $success, 90) !default;
-$success-lighter-alt: mix($white, $success, 80) !default;
+$green-1: #f6fff0 !default;
+$green-2: #f0ffe8 !default;
+$green-3: #d3ffbf !default;
+$green-4: #adf590 !default;
+$green-5: #85e864 !default;
+$green-6: #5ddb3b !default;
+$green-7: #42b528 !default;
+$green-8: #2a8f18 !default;
+$green-9: #17690d !default;
+$green-10: #0c4207 !default;
 
-$warning-darker: mix($black, $warning, 50) !default;
-$warning-dark: mix($black, $warning, 20) !default;
-$warning-dark-alt: mix($black, $warning, 40) !default;
-$warning-secondary: mix($white, $warning, 10) !default;
-$warning-tertiary: mix($white, $warning, 20) !default;
-$warning-light: mix($white, $warning, 70) !default;
-$warning-lighter: mix($white, $warning, 90) !default;
-$warning-lighter-alt: mix($white, $warning, 80) !default;
+$indigo-1: #f3f0ff !default;
+$indigo-2: #ece8ff !default;
+$indigo-3: #c9bfff !default;
+$indigo-4: #9c90f5 !default;
+$indigo-5: #6f64e8 !default;
+$indigo-6: #433bdb !default;
+$indigo-7: #2a28b5 !default;
+$indigo-8: #181a8f !default;
+$indigo-9: #0d1169 !default;
+$indigo-10: #070c42 !default;
 
-$danger-darker: mix($black, $danger, 50) !default;
-$danger-dark: mix($black, $danger, 20) !default;
-$danger-dark-alt: mix($black, $danger, 40) !default;
-$danger-secondary: mix($white, $danger, 10) !default;
-$danger-tertiary: mix($white, $danger, 20) !default;
-$danger-light: mix($white, $danger, 70) !default;
-$danger-lighter: mix($white, $danger, 90) !default;
-$danger-lighter-alt: mix($white, $danger, 80) !default;
+$purple-1: #f7f0ff !default;
+$purple-2: #f2e8ff !default;
+$purple-3: #d8bfff !default;
+$purple-4: #b490f5 !default;
+$purple-5: #8e64e8 !default;
+$purple-6: #683bdb !default;
+$purple-7: #4b28b5 !default;
+$purple-8: #32188f !default;
+$purple-9: #1d0d69 !default;
+$purple-10: #100742 !default;
 
-$info-darker: mix($black, $info, 50) !default;
-$info-dark: mix($black, $info, 20) !default;
-$info-dark-alt: mix($black, $info, 40) !default;
-$info-secondary: mix($white, $info, 10) !default;
-$info-tertiary: mix($white, $info, 20) !default;
-$info-light: mix($white, $info, 70) !default;
-$info-lighter: mix($white, $info, 90) !default;
-$info-lighter-alt: mix($white, $info, 80) !default;
+$teal-1: #f0fff6 !default;
+$teal-2: #e8fff2 !default;
+$teal-3: #bfffde !default;
+$teal-4: #90f5c4 !default;
+$teal-5: #64e8ad !default;
+$teal-6: #3bdb99 !default;
+$teal-7: #28b57f !default;
+$teal-8: #188f65 !default;
+$teal-9: #0d694b !default;
+$teal-10: #074232 !default;
 
-$pink-darker: mix($black, $pink, 50) !default;
-$pink-dark: mix($black, $pink, 20) !default;
-$pink-dark-alt: mix($black, $pink, 40) !default;
-$pink-secondary: mix($white, $pink, 10) !default;
-$pink-tertiary: mix($white, $pink, 20) !default;
-$pink-light: mix($white, $pink, 70) !default;
-$pink-lighter: mix($white, $pink, 90) !default;
-$pink-lighter-alt: mix($white, $pink, 80) !default;
+$pink-1: #fff0f3 !default;
+$pink-2: #ffe8ed !default;
+$pink-3: #ffbfd0 !default;
+$pink-4: #f590af !default;
+$pink-5: #e86490 !default;
+$pink-6: #db3b77 !default;
+$pink-7: #b52860 !default;
+$pink-8: #8f184c !default;
+$pink-9: #690d37 !default;
+$pink-10: #420725 !default;
 
-$indigo-darker: mix($black, $indigo, 50) !default;
-$indigo-dark: mix($black, $indigo, 20) !default;
-$indigo-dark-alt: mix($black, $indigo, 40) !default;
-$indigo-secondary: mix($white, $indigo, 10) !default;
-$indigo-tertiary: mix($white, $indigo, 20) !default;
-$indigo-light: mix($white, $indigo, 75) !default;
-$indigo-lighter: mix($white, $indigo, 90) !default;
-$indigo-lighter-alt: mix($white, $indigo, 80) !default;
+$orange-1: #fff9f0 !default;
+$orange-2: #fff5e8 !default;
+$orange-3: #ffe2bf !default;
+$orange-4: #f5c490 !default;
+$orange-5: #e8a464 !default;
+$orange-6: #db833b !default;
+$orange-7: #b56328 !default;
+$orange-8: #8f4618 !default;
+$orange-9: #692d0d !default;
+$orange-10: #421a07 !default;
 
-$purple-darker: mix($black, $purple, 50) !default;
-$purple-dark: mix($black, $purple, 20) !default;
-$purple-dark-alt: mix($black, $purple, 40) !default;
-$purple-secondary: mix($white, $purple, 10) !default;
-$purple-tertiary: mix($white, $purple, 20) !default;
-$purple-light: mix($white, $purple, 75) !default;
-$purple-lighter: mix($white, $purple, 90) !default;
-$purple-lighter-alt: mix($white, $purple, 80) !default;
+$cyan-1: #f0fffd !default;
+$cyan-2: #e8fffd !default;
+$cyan-3: #bffffc !default;
+$cyan-4: #90f5f3 !default;
+$cyan-5: #64e6e8 !default;
+$cyan-6: #3bd2db !default;
+$cyan-7: #28a9b5 !default;
+$cyan-8: #18818f !default;
+$cyan-9: #0d5b69 !default;
+$cyan-10: #073742 !default;
 
-$cyan-darker: mix($black, $cyan, 50) !default;
-$cyan-dark: mix($black, $cyan, 20) !default;
-$cyan-dark-alt: mix($black, $cyan, 40) !default;
-$cyan-secondary: mix($white, $cyan, 10) !default;
-$cyan-tertiary: mix($white, $cyan, 20) !default;
-$cyan-light: mix($white, $cyan, 75) !default;
-$cyan-lighter: mix($white, $cyan, 90) !default;
-$cyan-lighter-alt: mix($white, $cyan, 80) !default;
+$skyblue-1: #f0fdff !default;
+$skyblue-2: #e8fbff !default;
+$skyblue-3: #bff1ff !default;
+$skyblue-4: #90dcf5 !default;
+$skyblue-5: #64c3e8 !default;
+$skyblue-6: #3ba8db !default;
+$skyblue-7: #2884b5 !default;
+$skyblue-8: #18618f !default;
+$skyblue-9: #0d4269 !default;
+$skyblue-10: #072842 !default;
 
-$orange-darker: mix($black, $orange, 50) !default;
-$orange-dark: mix($black, $orange, 20) !default;
-$orange-dark-alt: mix($black, $orange, 40) !default;
-$orange-secondary: mix($white, $orange, 10) !default;
-$orange-tertiary: mix($white, $orange, 20) !default;
-$orange-light: mix($white, $orange, 75) !default;
-$orange-lighter: mix($white, $orange, 90) !default;
-$orange-lighter-alt: mix($white, $orange, 80) !default;
+$primary: $blue-6 !default;
+$success: $teal-6 !default;
+$info: $skyblue-6 !default;
+$warning: $yellow-6 !default;
+$danger: $red-6 !default;
+$light: $gray-1 !default;
+$dark: $gray-8 !default;
+$darker: $gray-9 !default;
+$secondary: $gray-6 !default;
+$disabled: $gray-4 !default;
+$disabled-bg: $gray-2 !default;
 
-$green-darker: mix($black, $green, 50) !default;
-$green-dark: mix($black, $green, 20) !default;
-$green-dark-alt: mix($black, $green, 40) !default;
-$green-secondary: mix($white, $green, 10) !default;
-$green-tertiary: mix($white, $green, 20) !default;
-$green-light: mix($white, $green, 75) !default;
-$green-lighter: mix($white, $green, 90) !default;
-$green-lighter-alt: mix($white, $green, 80) !default;
+$primary-darker: $blue-10 !default;
+$primary-dark: $blue-8 !default;
+$primary-light: $blue-4 !default;
+$primary-lighter: $blue-2 !default;
+
+$success-darker: $teal-10 !default;
+$success-dark: $teal-8 !default;
+$success-light: $teal-4 !default;
+$success-lighter: $teal-2 !default;
+
+$warning-darker: $yellow-10 !default;
+$warning-dark: $yellow-8 !default;
+$warning-light: $yellow-4 !default;
+$warning-lighter: $yellow-2 !default;
+
+$danger-darker: $red-10 !default;
+$danger-dark: $red-8 !default;
+$danger-light: $red-4 !default;
+$danger-lighter: $red-2 !default;
+
+$info-darker: $skyblue-10 !default;
+$info-dark: $skyblue-8 !default;
+$info-light: $skyblue-4 !default;
+$info-lighter: $skyblue-2 !default;
+
+$pink-darker: $pink-10 !default;
+$pink-dark: $pink-8 !default;
+$pink-light: $pink-4 !default;
+$pink-lighter: $pink-2 !default;
+
+$indigo-darker: $indigo-10 !default;
+$indigo-dark: $indigo-8 !default;
+$indigo-light: $indigo-4 !default;
+$indigo-lighter: $indigo-2 !default;
+
+$purple-darker: $purple-10 !default;
+$purple-dark: $purple-8 !default;
+$purple-light: $purple-4 !default;
+$purple-lighter: $purple-2 !default;
+
+$cyan-darker: $cyan-10 !default;
+$cyan-dark: $cyan-8 !default;
+$cyan-light: $cyan-4 !default;
+$cyan-lighter: $cyan-2 !default;
+
+$orange-darker: $orange-10 !default;
+$orange-dark: $orange-8 !default;
+$orange-light: $orange-4 !default;
+$orange-lighter: $orange-2 !default;
+
+$green-darker: $green-10 !default;
+$green-dark: $green-8 !default;
+$green-light: $green-4 !default;
+$green-lighter: $green-2 !default;
 
 //Themes
 $plain-theme-colors: (
@@ -193,117 +208,74 @@ $plain-theme-colors: (
 	'danger': $danger,
 	'error': $danger,
 	'info': $info,
-	'indigo': $indigo,
-	'purple': $purple,
+	'indigo': $indigo-6,
+	'purple': $purple-6,
 	'light': $light,
 	'dark': $dark,
 	'darker': $darker,
 	'secondary': $secondary,
-	'green': $green,
-	'cyan': $cyan,
-	'orange': $orange
+	'green': $green-6,
+	'cyan': $cyan-6,
+	'orange': $orange-6,
+	'pink': $pink-6
 );
 
 $theme-colors: (
 	'primary-darker': $primary-darker,
 	'primary-dark': $primary-dark,
-	'primary-dark-alt': $primary-dark-alt,
 	'primary': $primary,
-	'primary-secondary': $primary-secondary,
-	'primary-tertiary': $primary-tertiary,
 	'primary-light': $primary-light,
 	'primary-lighter': $primary-lighter,
-	'primary-lighter-alt': $primary-lighter-alt,
 	'success-darker': $success-darker,
 	'success-dark': $success-dark,
-	'success-dark-alt': $success-dark-alt,
 	'success': $success,
-	'success-secondary': $success-secondary,
-	'success-tertiary': $success-tertiary,
 	'success-light': $success-light,
 	'success-lighter': $success-lighter,
-	'success-lighter-alt': $success-lighter-alt,
 	'warning-darker': $warning-darker,
 	'warning-dark': $warning-dark,
-	'warning-dark-alt': $warning-dark-alt,
 	'warning': $warning,
-	'warning-secondary': $warning-secondary,
-	'warning-tertiary': $warning-tertiary,
 	'warning-light': $warning-light,
 	'warning-lighter': $warning-lighter,
-	'warning-lighter-alt': $warning-lighter-alt,
 	'danger-darker': $danger-darker,
 	'danger-dark': $danger-dark,
-	'danger-dark-alt': $danger-dark-alt,
 	'danger': $danger,
-	'danger-secondary': $danger-secondary,
-	'danger-tertiary': $danger-tertiary,
 	'danger-light': $danger-light,
 	'danger-lighter': $danger-lighter,
-	'danger-lighter-alt': $danger-lighter-alt,
 	'info-darker': $info-darker,
 	'info-dark': $info-dark,
-	'info-dark-alt': $info-dark-alt,
 	'info': $info,
-	'info-secondary': $info-secondary,
-	'info-tertiary': $info-tertiary,
 	'info-light': $info-light,
 	'info-lighter': $info-lighter,
-	'info-lighter-alt': $info-lighter-alt,
 	'pink-darker': $pink-darker,
 	'pink-dark': $pink-dark,
-	'pink-dark-alt': $pink-dark-alt,
-	'pink': $pink,
-	'pink-secondary': $pink-secondary,
-	'pink-tertiary': $pink-tertiary,
+	'pink': $pink-6,
 	'pink-light': $pink-light,
 	'pink-lighter': $pink-lighter,
-	'pink-lighter-alt': $pink-lighter-alt,
 	'indigo-darker': $indigo-darker,
 	'indigo-dark': $indigo-dark,
-	'indigo-dark-alt': $indigo-dark-alt,
-	'indigo': $indigo,
-	'indigo-secondary': $indigo-secondary,
-	'indigo-tertiary': $indigo-tertiary,
+	'indigo': $indigo-6,
 	'indigo-light': $indigo-light,
 	'indigo-lighter': $indigo-lighter,
-	'indigo-lighter-alt': $indigo-lighter-alt,
 	'purple-darker': $purple-darker,
 	'purple-dark': $purple-dark,
-	'purple-dark-alt': $purple-dark-alt,
-	'purple': $purple,
-	'purple-secondary': $purple-secondary,
-	'purple-tertiary': $purple-tertiary,
+	'purple': $purple-6,
 	'purple-light': $purple-light,
 	'purple-lighter': $purple-lighter,
-	'purple-lighter-alt': $purple-lighter-alt,
 	'green-darker': $green-darker,
 	'green-dark': $green-dark,
-	'green-dark-alt': $green-dark-alt,
-	'green': $green,
-	'green-secondary': $green-secondary,
-	'green-tertiary': $green-tertiary,
+	'green': $green-6,
 	'green-light': $green-light,
 	'green-lighter': $green-lighter,
-	'green-lighter-alt': $green-lighter-alt,
 	'cyan-darker': $cyan-darker,
 	'cyan-dark': $cyan-dark,
-	'cyan-dark-alt': $cyan-dark-alt,
-	'cyan': $cyan,
-	'cyan-secondary': $cyan-secondary,
-	'cyan-tertiary': $cyan-tertiary,
+	'cyan': $cyan-6,
 	'cyan-light': $cyan-light,
 	'cyan-lighter': $cyan-lighter,
-	'cyan-lighter-alt': $cyan-lighter-alt,
 	'orange-darker': $orange-darker,
 	'orange-dark': $orange-dark,
-	'orange-dark-alt': $orange-dark-alt,
-	'orange': $orange,
-	'orange-secondary': $orange-secondary,
-	'orange-tertiary': $orange-tertiary,
+	'orange': $orange-6,
 	'orange-light': $orange-light,
 	'orange-lighter': $orange-lighter,
-	'orange-lighter-alt': $orange-lighter-alt,
 	'light': $light,
 	'dark': $dark,
 	'darker': $darker,
@@ -311,14 +283,14 @@ $theme-colors: (
 ) !default;
 
 //Links
-$link-color: $primary-secondary !default;
-$link-hover-color: $primary-dark !default;
+$link-color: $primary-dark !default;
+$link-hover-color: $primary-darker !default;
 $link-decoration: none !default;
 $link-hover-decoration: none !default;
 
 //Body
-$body-bg: $gray-100 !default;
-$body-color: $gray-700 !default;
+$body-bg: $gray-1 !default;
+$body-color: $gray-7 !default;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 210 !default;
@@ -328,108 +300,64 @@ $yiq-text-dark: $body-color !default;
 $yiq-text-light: $white !default;
 
 // Components
-$border-color: $gray-300 !default;
+$border-color: $gray-3 !default;
 
 :export {
 	primary-darker: $primary-darker;
-	primary-dark-alt: $primary-dark-alt;
 	primary-dark: $primary-dark;
 	primary: $primary;
-	primary-secondary: $primary-secondary;
-	primary-tertiary: $primary-tertiary;
 	primary-light: $primary-light;
-	primary-lighter-alt: $primary-lighter-alt;
 	primary-lighter: $primary-lighter;
 	success-darker: $success-darker;
-	success-dark-alt: $success-dark-alt;
 	success-dark: $success-dark;
 	success: $success;
-	success-secondary: $success-secondary;
-	success-tertiary: $success-tertiary;
 	success-light: $success-light;
-	success-lighter-alt: $success-lighter-alt;
 	success-lighter: $success-lighter;
 	warning-darker: $warning-darker;
-	warning-dark-alt: $warning-dark-alt;
 	warning-dark: $warning-dark;
 	warning: $warning;
-	warning-secondary: $warning-secondary;
-	warning-tertiary: $warning-tertiary;
 	warning-light: $warning-light;
-	warning-lighter-alt: $warning-lighter-alt;
 	warning-lighter: $warning-lighter;
 	danger-darker: $danger-darker;
-	danger-dark-alt: $danger-dark-alt;
 	danger-dark: $danger-dark;
 	danger: $danger;
-	danger-secondary: $danger-secondary;
-	danger-tertiary: $danger-tertiary;
 	danger-light: $danger-light;
-	danger-lighter-alt: $danger-lighter-alt;
 	danger-lighter: $danger-lighter;
 	info-darker: $info-darker;
-	info-dark-alt: $info-dark-alt;
 	info-dark: $info-dark;
 	info: $info;
-	info-secondary: $info-secondary;
-	info-tertiary: $info-tertiary;
 	info-light: $info-light;
-	info-lighter-alt: $info-lighter-alt;
 	info-lighter: $info-lighter;
 	pink-darker: $pink-darker;
-	pink-dark-alt: $pink-dark-alt;
 	pink-dark: $pink-dark;
-	pink: $pink;
-	pink-secondary: $pink-secondary;
-	pink-tertiary: $pink-tertiary;
+	pink: $pink-6;
 	pink-light: $pink-light;
-	pink-lighter-alt: $pink-lighter-alt;
 	pink-lighter: $pink-lighter;
 	indigo-darker: $indigo-darker;
-	indigo-dark-alt: $indigo-dark-alt;
 	indigo-dark: $indigo-dark;
-	indigo: $indigo;
-	indigo-secondary: $indigo-secondary;
-	indigo-tertiary: $indigo-tertiary;
+	indigo: $indigo-6;
 	indigo-light: $indigo-light;
-	indigo-lighter-alt: $indigo-lighter-alt;
 	indigo-lighter: $indigo-lighter;
 	purple-darker: $purple-darker;
-	purple-dark-alt: $purple-dark-alt;
 	purple-dark: $purple-dark;
-	purple: $purple;
-	purple-secondary: $purple-secondary;
-	purple-tertiary: $purple-tertiary;
+	purple: $purple-6;
 	purple-light: $purple-light;
-	purple-lighter-alt: $purple-lighter-alt;
 	purple-lighter: $purple-lighter;
 	green-darker: $green-darker;
 	green-dark: $green-dark;
-	green-dark-alt: $green-dark-alt;
-	green: $green;
-	green-secondary: $green-secondary;
-	green-tertiary: $green-tertiary;
+	green: $green-6;
 	green-light: $green-light;
 	green-lighter: $green-lighter;
-	green-lighter-alt: $green-lighter-alt;
 	cyan-darker: $cyan-darker;
 	cyan-dark: $cyan-dark;
-	cyan-dark-alt: $cyan-dark-alt;
-	cyan: $cyan;
-	cyan-secondary: $cyan-secondary;
-	cyan-tertiary: $cyan-tertiary;
+	cyan: $cyan-6;
 	cyan-light: $cyan-light;
 	cyan-lighter: $cyan-lighter;
-	cyan-lighter-alt: $cyan-lighter-alt;
 	orange-darker: $orange-darker;
 	orange-dark: $orange-dark;
-	orange-dark-alt: $orange-dark-alt;
-	orange: $orange;
-	orange-secondary: $orange-secondary;
-	orange-tertiary: $orange-tertiary;
+	orange: $orange-6;
 	orange-light: $orange-light;
 	orange-lighter: $orange-lighter;
-	orange-lighter-alt: $orange-lighter-alt;
 	light: $light;
 	dark: $dark;
 	darker: $darker;

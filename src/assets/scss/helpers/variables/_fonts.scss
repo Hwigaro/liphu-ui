@@ -57,9 +57,9 @@ $display-line-height: $headings-line-height !default;
 
 $small-font-size: 80% !default;
 
-$text-muted: $gray-600 !default;
+$text-muted: $gray-6 !default;
 
-$blockquote-small-color: $gray-600 !default;
+$blockquote-small-color: $gray-6 !default;
 $blockquote-font-size: ($font-size-base * 1.25) !default;
 
 $hr-border-color: rgba($black, 0.1) !default;
@@ -70,4 +70,4 @@ $list-inline-padding: 0.5rem !default;
 $paragraph-margin-bottom: 1rem !default;
 
 $mark-padding: 0.2em !default;
-$mark-bg: $gray-100 !default;
+$mark-bg: $gray-1 !default;

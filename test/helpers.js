@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import liphu from '../src';
+import liphu from 'liphu-ui';
 
 Vue.use(liphu);
 Vue.config.devtools = false;

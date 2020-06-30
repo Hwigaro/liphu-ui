@@ -11,15 +11,14 @@ exports.isProd = isProd;
 exports.env = isProd ? 'production' : 'development';
 
 exports.alias = {
-	'liphu-ui': path.resolve(__dirname, '../../src'),
-	root: path.resolve(__dirname, '../../'),
-	components: path.resolve(__dirname, '../../src/components'),
-	utils: path.resolve(__dirname, '../../src/utils'),
-	mixins: path.resolve(__dirname, '../../src/mixins'),
-	directives: path.resolve(__dirname, '../../src/directives'),
+	'liphu-ui': path.join(process.cwd(), 'src'),
+	root: process.cwd(),
+	components: path.resolve(process.cwd(), 'src/components'),
+	utils: path.resolve(process.cwd(), 'src/utils'),
+	mixins: path.resolve(process.cwd(), 'src/mixins'),
+	directives: path.resolve(process.cwd(), 'src/directives'),
 	vue: isProd ? 'vue/dist/vue.min' : 'vue/dist/vue.esm.js'
 };
-
 const directories = [
 	{
 		name: 'components',
