@@ -1,0 +1,158 @@
+.#{$css-prefix}-btn {
+	line-height: $line-height-base;
+	position: relative;
+	display: inline-block;
+	font-family: $btn-font-family;
+	font-weight: $btn-font-weight;
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	user-select: none;
+	background: transparent;
+	touch-action: manipulation;
+	color: $body-color;
+	border: $btn-border-width solid $btn-border-color;
+	outline: none !important;
+
+	@include button-size(
+		$btn-padding-y,
+		$btn-padding-x,
+		$btn-font-size,
+		$btn-line-height,
+		$btn-border-radius,
+		$btn-size
+	);
+
+	@include transition($btn-transition);
+	box-shadow: $btn-box-shadow;
+
+	@include hover {
+		color: $body-color;
+		text-decoration: none;
+	}
+
+	&:focus,
+	&.focus {
+		outline: 0;
+		box-shadow: $btn-focus-box-shadow;
+	}
+
+	&.disabled,
+	&:disabled {
+		text-shadow: none;
+
+		@include hover-focus-active {
+			text-shadow: none;
+		}
+	}
+
+	&:not(:disabled):not(.disabled):active,
+	&:not(:disabled):not(.disabled).active {
+		box-shadow: $btn-focus-box-shadow;
+	}
+
+	.#{$css-prefix}-icon {
+		display: inline-block;
+		line-height: 1;
+	}
+
+	.#{$css-prefix}-icon + span {
+		@include transition($transition-base);
+		margin-left: 0.5rem;
+	}
+
+	&-circle .#{$css-prefix}-icon-loading {
+		top: 50%;
+	}
+
+	&-link {
+		@include button-link-variant($body-color);
+	}
+}
+
+@each $color, $value in $theme-colors {
+	.#{$css-prefix}-btn-#{$color} {
+		@include button-variant($value);
+	}
+}
+
+//
+// Button Sizes
+//
+.#{$css-prefix}-btn-xs {
+	@include button-size(
+		$btn-padding-y-xs,
+		$btn-padding-x-xs,
+		$font-size-xs,
+		$btn-line-height-xs,
+		$btn-border-radius-xs,
+		$btn-size-xs
+	);
+}
+
+.#{$css-prefix}-btn-sm {
+	@include button-size(
+		$btn-padding-y-sm,
+		$btn-padding-x-sm,
+		$font-size-sm,
+		$btn-line-height-sm,
+		$btn-border-radius-sm,
+		$btn-size-sm
+	);
+}
+
+.#{$css-prefix}-btn-lg {
+	@include button-size(
+		$btn-padding-y-lg,
+		$btn-padding-x-lg,
+		$font-size-lg,
+		$btn-line-height-lg,
+		$btn-border-radius-lg,
+		$btn-size-lg
+	);
+}
+
+.#{$css-prefix}-btn-xl {
+	@include button-size(
+		$btn-padding-y-xl,
+		$btn-padding-x-xl,
+		$font-size-xl,
+		$btn-line-height-xl,
+		$btn-border-radius-xl,
+		$btn-size-xl
+	);
+}
+
+.#{$css-prefix}-btn-xxl {
+	@include button-size(
+		$btn-padding-y-xxl,
+		$btn-padding-x-xxl,
+		$font-size-xxl,
+		$btn-line-height-xxl,
+		$btn-border-radius-xxl,
+		$btn-size-xxl
+	);
+}
+
+//
+// Block button
+//
+
+.#{$css-prefix}-btn-block {
+	display: block;
+	width: 100%;
+
+	// Vertically space out multiple block buttons
+	+ .#{$css-prefix}-btn-block {
+		margin-top: $btn-block-spacing-y;
+	}
+}
+
+// Specificity overrides
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+	&.#{$css-prefix}-btn-block {
+		width: 100%;
+	}
+}

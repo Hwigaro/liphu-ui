@@ -3,8 +3,9 @@ import Router from 'vue-router';
 import layout from './routes/layout.vue';
 import icon from './routes/icon.vue';
 import avatar from './routes/avatar.vue';
-import card from './routes/card.vue';
 import divider from './routes/divider.vue';
+import card from './routes/card.vue';
+import button from './routes/button.vue';
 import style from './routes/style.vue';
 
 const routesMap = [
@@ -30,6 +31,13 @@ const routesMap = [
 		}
 	},
 	{
+		path: '/divider',
+		component: divider,
+		meta: {
+			title: 'Divider'
+		}
+	},
+	{
 		path: '/card',
 		component: card,
 		meta: {
@@ -37,10 +45,10 @@ const routesMap = [
 		}
 	},
 	{
-		path: '/divider',
-		component: divider,
+		path: '/button',
+		component: button,
 		meta: {
-			title: 'divider'
+			title: 'Button'
 		}
 	},
 	{

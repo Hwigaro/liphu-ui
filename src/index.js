@@ -20,6 +20,10 @@ import {
 	LpCardGroup as CardGroup,
 	LpCardDeck as CardDeck
 } from 'components/card';
+import {
+	LpButton as Button,
+	LpButtonGroup as ButtonGroup
+} from './components/button';
 
 const components = [
 	Layout,
@@ -32,11 +36,13 @@ const components = [
 	Container,
 	Icon,
 	Avatar,
+	Divider,
 	Card,
 	CardMeta,
 	CardGroup,
 	CardDeck,
-	Divider
+	Button,
+	ButtonGroup
 ];
 
 const installOptions = options => {
@@ -83,11 +89,13 @@ export {
 	Container,
 	Icon,
 	Avatar,
+	Divider,
 	Card,
 	CardMeta,
 	CardGroup,
 	CardDeck,
-	Divider
+	Button,
+	ButtonGroup
 };
 
 export default {
